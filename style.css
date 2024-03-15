@@ -12,4 +12,28 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-inline: 80px;
+}
+
+.content {
+  width: 600px;
+}
+
+.card {
+  background-color: #fff;
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+
+.card-img {
+  width: 100px;
+  object-fit: cover;
 }
